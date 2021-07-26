@@ -1,5 +1,5 @@
 html, body {height: 10000px;}
-.wrapper {max-width: 1200px; margin: 20px auto; padding: 100px 0; background-color: #bbb; overflow: hidden;}
+.wrapper {max-width: 1200px; margin: 20px auto; padding: 100px 0; background-color: #bbb;}
 .wrapper .imgs {border: 1px solid red;}
 
 .wrapper1 .img-wrap {width: 103%; margin-left: -1.5%;}
@@ -18,3 +18,18 @@ html, body {height: 10000px;}
 .wrapper5 {padding: 0; height: 800px;}
 .wrapper5 .img-wrap {border: 1px solid green; display: flex; flex-wrap: wrap; align-items: center; height: 100%; align-content: center;}
 .wrapper5 .img-wrap .imgs {width: 14.2857%;}
+
+.wrapper6 {padding: 0; height: 400px; display: flex;}
+.wrapper6 .box {border: 1px solid red; font-size: 20px; display: flex; align-items: center; justify-content: center; transition: all .5s; flex-grow: 1;}
+.wrapper6 .box:hover {flex-grow: 3;}
+.wrapper6 .box1 {order: 3;}
+.wrapper6 .box2 {order: 1;}
+.wrapper6 .box3 {order: 2;}
+.wrapper6 .box4 {order: 4;}
+.wrapper6 .box5 {order: -1;}
+
+.wrapper7 {padding: 0; height: 400px; display: flex; flex-wrap: wrap;}
+.wrapper7 .box {border: 1px solid red; font-size: 24px; 
+	/* width: 50%; flex-shrink: 0; flex-grow: 1; */
+	flex: 1 0 50%;
+}
