@@ -1,5 +1,5 @@
 html, body {height: 10000px;}
-section:not(.main-wrapper) {padding: 100px 0;}
+section:not(.main-wrapper) {padding-top: 100px;}
 
 /************** main-wrapper **************/
 .main-wrapper .wrapper {position: relative;}
@@ -12,7 +12,6 @@ section:not(.main-wrapper) {padding: 100px 0;}
 .prj-wrapper .prj-wrap {display: flex; flex-wrap: wrap; width: 101%;}
 .prj-wrapper .prj-wrap .prj {position: relative; width: 24%; margin: 0 1% 1% 0;}
 .prj-wrapper .prj-wrap .prj h4.title {position: absolute; top: 0; left: 0; padding: 16px; background-color: #000; color: #fff;}
-
 
 
 /************** about-wrapper **************/
