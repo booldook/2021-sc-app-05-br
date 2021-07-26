@@ -15,6 +15,17 @@ section:not(.main-wrapper) {padding-top: 100px;}
 
 
 /************** about-wrapper **************/
+.about-wrapper {}
+.about-wrapper .wrapper {overflow: hidden;}
+.about-wrapper .team-wrap {display: flex; width: 101%;}
+.about-wrapper .team-wrap .team {width: 24%; margin: 0 1% 1% 0;}
+.about-wrapper .team > *:not(:last-child) {margin-bottom: 20px;}
+.about-wrapper .team .imgs {filter: grayscale(.5);}
+.about-wrapper .team h4.name {font-size: 24px;}
+.about-wrapper .team h5.title {color: #999;}
+.about-wrapper .team p.content {line-height: 1.5;}
+.about-wrapper .team a.bt-contact {display: block; padding: 12px; text-align: center; background-color: #eee;}
+.about-wrapper .team a.bt-contact:hover {background-color: #ccc;}
 
 
 
