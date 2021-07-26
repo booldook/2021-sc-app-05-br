@@ -1,0 +1,8 @@
+.wrapper {max-width: 1200px; margin: 20px auto; padding: 100px 0; background-color: #bbb; overflow: hidden;}
+.wrapper .imgs {border: 1px solid red;}
+
+.wrapper1 .img-wrap {width: 103%; margin-left: -1.5%;}
+.wrapper1 .img-wrap .imgs {width: 22%; margin: 1.5%; float: left;}
+
+.wrapper2 .img-wrap {display: flex; justify-content: space-evenly; align-items: flex-end;}
+.wrapper2 .img-wrap .imgs {width: 20%;}
